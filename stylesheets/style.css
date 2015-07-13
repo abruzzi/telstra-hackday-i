@@ -344,6 +344,10 @@ body {
   color: #FD8724;
 }
 
+/* line 238, ../sass/style.scss */
+.kickoff-result {
+  color: #3859B7;
+}
 /* line 34, ../sass/style.scss */
 .kickoff-result h2 {
   text-transform: uppercase;
@@ -354,7 +358,7 @@ body {
   color: #FD8724;
 }
 
-/* line 242, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 .candy {
   background-color: #3859B7;
   /*background-color: $body-text-color;*/
@@ -362,7 +366,7 @@ body {
   position: relative;
   z-index: 1;
 }
-/* line 250, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 .candy:after {
   display: block;
   position: absolute;
@@ -386,37 +390,37 @@ body {
   color: #FD8724;
 }
 
-/* line 267, ../sass/style.scss */
+/* line 268, ../sass/style.scss */
 .showcase {
   padding: 10em 0;
-  background-color: #F5F5F5;
+  background-color: #F0F0F0;
   color: #3859B7;
 }
-/* line 273, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 .showcase h3 {
   text-transform: uppercase;
   font-size: 6em;
   padding: 1em 0;
 }
-/* line 279, ../sass/style.scss */
+/* line 280, ../sass/style.scss */
 .showcase p {
   font-family: "Open Sans", "Microsoft YaHei", "Hiragino Sans GB", "Hiragino Sans GB W3", "微软雅黑", "Helvetica Neue", Arial, sans-serif;
 }
 
-/* line 284, ../sass/style.scss */
+/* line 285, ../sass/style.scss */
 .idea {
   width: 80%;
   margin: 0 auto;
 }
-/* line 288, ../sass/style.scss */
+/* line 289, ../sass/style.scss */
 .idea .content {
   margin: 0 auto;
 }
-/* line 292, ../sass/style.scss */
+/* line 293, ../sass/style.scss */
 .idea img {
   width: 80%;
 }
-/* line 296, ../sass/style.scss */
+/* line 297, ../sass/style.scss */
 .idea p {
   font-weight: lighter;
   padding: 1em 0;
@@ -424,19 +428,57 @@ body {
   line-height: 1.4;
   color: #666666;
 }
-/* line 303, ../sass/style.scss */
+/* line 304, ../sass/style.scss */
 .idea p a {
   text-decoration: none;
   color: #3859B7;
 }
 
-/* line 310, ../sass/style.scss */
+/* line 311, ../sass/style.scss */
+.teams {
+  background-color: #FEFEFE;
+  padding: 4em 0;
+  width: 90%;
+  margin: 0 auto;
+}
+/* line 318, ../sass/style.scss */
+.teams h3 {
+  color: #3859B7;
+  text-transform: uppercase;
+  font-size: 6em;
+  padding: 1em 0;
+}
+/* line 325, ../sass/style.scss */
+.teams #teams .item {
+  margin: 3px;
+}
+/* line 327, ../sass/style.scss */
+.teams #teams .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: .8;
+  -moz-transition: all, 0.2s, ease-in-out;
+  -o-transition: all, 0.2s, ease-in-out;
+  -webkit-transition: all, 0.2s, ease-in-out;
+  transition: all, 0.2s, ease-in-out;
+  -webkit-filter: grayscale(60%);
+  filter: grayscale(60%);
+}
+/* line 335, ../sass/style.scss */
+.teams #teams .item img:hover {
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+/* line 344, ../sass/style.scss */
 footer {
   font-family: "Open Sans", "Microsoft YaHei", "Hiragino Sans GB", "Hiragino Sans GB W3", "微软雅黑", "Helvetica Neue", Arial, sans-serif;
   background-color: #3859B7;
   color: #ffffff;
 }
-/* line 315, ../sass/style.scss */
+/* line 349, ../sass/style.scss */
 footer p {
   font-size: 2em;
   padding: 2em 0;
