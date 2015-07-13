@@ -25,7 +25,7 @@ $branding-color: #3859B7;
 }
 
 .hero {
-	background: url('/images/telstra-blue.png');
+	background: url('../images/telstra-blue.png');
 	background-size: cover;
 	color: #FFFFFF;
 	position: relative;
@@ -105,7 +105,7 @@ $branding-color: #3859B7;
 		bottom: 0;
 		right: 0;
 		content: "";		
-		background: url('/images/radar-resized.png');
+		background: url('../images/radar-resized.png');
 		background-size: cover;
 		z-index: -1;
 		opacity: .2;

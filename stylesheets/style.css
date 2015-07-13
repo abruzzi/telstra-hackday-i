@@ -85,7 +85,7 @@ body {
 
 /* line 27, ../sass/style.scss */
 .hero {
-  background: url("/images/telstra-blue.png");
+  background: url("../images/telstra-blue.png");
   background-size: cover;
   color: #FFFFFF;
   position: relative;
@@ -167,7 +167,7 @@ body {
   bottom: 0;
   right: 0;
   content: "";
-  background: url("/images/radar-resized.png");
+  background: url("../images/radar-resized.png");
   background-size: cover;
   z-index: -1;
   opacity: .2;
