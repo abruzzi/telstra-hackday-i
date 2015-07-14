@@ -308,11 +308,80 @@ $branding-color: #3859B7;
 	}
 }
 
+#dong {
+	background-color: $branding-color;
+	color: $body-background-color;
+	position: relative;
+	z-index: 1;
+	
+
+	&:after {
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index: -100;
+		-webkit-transform: translateX(-50%) translateY(-50%);
+		transform: translateX(-50%) translateY(-50%);
+		background: url(../images/dong-muted.jpeg) no-repeat;
+		background-size: cover;
+		transition: 1s opacity;
+	}
+
+	.stopfade { opacity: .5; }
+
+	@include headline;
+}
+
+.videos {
+	position: relative;
+	z-index: 1;
+	color: #ffffff;
+
+	#dong {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index: -100;
+		-webkit-transform: translateX(-50%) translateY(-50%);
+		transform: translateX(-50%) translateY(-50%);
+		background: url(../images/dong-muted.jpeg) no-repeat;
+		background-size: cover;
+		transition: 1s opacity;
+	}
+
+	#juntao {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index: -100;
+		-webkit-transform: translateX(-50%) translateY(-50%);
+		transform: translateX(-50%) translateY(-50%);
+		background: url(../images/juntao-muted.jpeg) no-repeat;
+		background-size: cover;
+		transition: 1s opacity;
+	}
+	@include headline;
+
+}
+
 .teams {
 	background-color: #FEFEFE;
-	padding: 4em 0;
+	padding: 4em 0 8em 0;
 
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 
 	h3 {
@@ -323,7 +392,7 @@ $branding-color: #3859B7;
 	}
 
 	#teams .item{
-	  margin: 3px;
+	  margin: 10px;
 	  img{
 		  display: block;
 		  width: 100%;
